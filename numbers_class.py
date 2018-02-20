@@ -10,7 +10,6 @@ class numberInfo(object):
         minMax (minimum and maximum of the list)
     """
 
-
     def __init__(self, input_list = (0, 1, 2, 3)):
         self.myList = input_list
         self.maxDiff = None
