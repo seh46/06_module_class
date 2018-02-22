@@ -21,10 +21,12 @@ class numberInfo(object):
         consecutive elements in a numerical list
 
         :param self object with a myList attribute
-        :return: attribute with maximum magnitude consecutive difference as a scalar,
-        or a vector if equal maximum difference in positive negative directions
+        :return: attribute with maximum magnitude consecutive difference as a
+        scalar, or a vector if equal maximum difference in positive negative
+        directions
         :rtype: scalar or array
-        :raises ValueError: if the numerical list input is of length less than 2
+        :raises ValueError: if the numerical list input is of length less than
+        2
         :raises TypeError: if a non-numerical list is given
         :raises ImportError: if a required package was not loaded
         """
@@ -54,7 +56,8 @@ class numberInfo(object):
             logging.warning('Found max diff is of type None')
             max_diff = None
         except ImportError:
-            # This file does not use any non-standard python packages like numpy
+            # This file does not use any non-standard python packages like
+            # numpy
             print('Missing package... or basic python installation')
             logging.debug('Required package is not installed')
             max_diff = None

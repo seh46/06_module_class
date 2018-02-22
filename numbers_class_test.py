@@ -5,11 +5,11 @@ import numbers_class
 def test_find_max_diff():
     from math import isclose
 
-    list_1_diff = numbers_class.numberInfo([1, 4, 10])
-    list_2_diff = numbers_class.numberInfo([0, -8, -4, 0, 4, 11])
-    list_3_diff = numbers_class.numberInfo([7, 7, 7, 7, 7])
-    list_4_diff = numbers_class.numberInfo([0, 0.1, 0.205, 0.3])
-    list_5_diff = numbers_class.numberInfo([-7, 0, -7])
+    list_1_diff = numbers_class.numberInfo((1, 4, 10))
+    list_2_diff = numbers_class.numberInfo((0, -8, -4, 0, 4, 11))
+    list_3_diff = numbers_class.numberInfo((7, 7, 7, 7, 7))
+    list_4_diff = numbers_class.numberInfo((0, 0.1, 0.205, 0.3))
+    list_5_diff = numbers_class.numberInfo((-7, 0, -7))
 
     assert list_1_diff.maxDiff == 6
     assert list_2_diff.maxDiff == -8
