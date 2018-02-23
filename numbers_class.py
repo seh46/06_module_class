@@ -124,5 +124,9 @@ class numberInfo(object):
             print('Only numerical lists accepted')
             logging.warning('Min/max is not numerical list')
             min_max_out = None
+        except ValueError:
+            print('Numerical list must be at least of length 1')
+            logging.warning('Min/max is not of length 1 or greater')
+            min_max_out = None
 
         self.minMax = min_max_out
