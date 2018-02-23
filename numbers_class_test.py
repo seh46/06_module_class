@@ -39,7 +39,7 @@ def test_max_diff_exceptions(capsys):
     assert list3.maxDiff is None
     assert out1 == 'Numerical list must be at least of length 2\n'
     assert out2 == 'Numerical list must be at least of length 2\n'
-    assert out3 == 'Only numerical lists accepted'
+    assert out3 == 'Only numerical lists accepted\n'
 
 
 def test_sum_list(capsys):

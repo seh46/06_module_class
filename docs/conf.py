@@ -164,6 +164,3 @@ texinfo_documents = [
      author, 'numberInfoClass', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
