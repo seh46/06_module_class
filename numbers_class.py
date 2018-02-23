@@ -20,7 +20,7 @@ class numberInfo(object):
         """Function to find the maximum magnitude difference between
         consecutive elements in a numerical list
 
-        :param self object with a myList attribute
+        :param: self object with a myList attribute
 
         :return: attribute with maximum magnitude consecutive difference as a
         scalar, or a vector if equal maximum difference in positive negative
@@ -70,7 +70,7 @@ class numberInfo(object):
     def sum_list(self):
         """Find the sum of all elements in a list
 
-        :param  self object with a myList attribute
+        :param:  self object with a myList attribute
 
         :return: attribute with sum of list elements
 
@@ -107,10 +107,9 @@ class numberInfo(object):
     def min_max(self):
         """Finds the minimum and maximum values of a numerical list.
 
-        :param self object with a myList attribute
+        :param: self object with a myList attribute
 
         :returns: attribute with minimum and maximum values of list
-        
         :raises ImportError: if numpy is not installed
         :raises TypeError: if a non-numerical list is given
         """
