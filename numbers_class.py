@@ -21,10 +21,13 @@ class numberInfo(object):
         consecutive elements in a numerical list
 
         :param self object with a myList attribute
+
         :return: attribute with maximum magnitude consecutive difference as a
         scalar, or a vector if equal maximum difference in positive negative
         directions
+
         :rtype: scalar or array
+
         :raises ValueError: if the numerical list input is of length less than
         2
         :raises TypeError: if a non-numerical list is given
@@ -68,7 +71,9 @@ class numberInfo(object):
         """Find the sum of all elements in a list
 
         :param  self object with a myList attribute
+
         :return: attribute with sum of list elements
+
         :raises ValueError: if infinity is in the input array
         :raises TypeError: if list is empty or contains non-numerical elements
         :raises ImportError: if a required package was not loaded
@@ -103,7 +108,9 @@ class numberInfo(object):
         """Finds the minimum and maximum values of a numerical list.
 
         :param self object with a myList attribute
+
         :returns: attribute with minimum and maximum values of list
+        
         :raises ImportError: if numpy is not installed
         :raises TypeError: if a non-numerical list is given
         """
